@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../input.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <main>
+        <header class="bg-[#f8f9fa]">
+            <div class="sm:px-24 lg:px-36 flex justify-center py-3 shadow">
+                <a href="https://zummitlabs.com/" class="logo">
+                    <img src="../Images/Zumitlogo.svg" alt="Zummit Logo" class="w-[50px]">
+                </a>
+            </div>
+        </header>
+        <article class="h-[calc(100vh-80px)] overflow-y-scroll p-5">
+            <div class="container flex items-center h-full justify-center rounded-lg">
+                <div class="card h-[400px] aspect-[16/9] bg-[#f8f9fa] p-3 shadow">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSReqj2oipRAuPF7fE7MYft2XPFOLj_gMiUApt-i5uufQ&s"
+                                alt="Profile" class="rounded-full block mx-auto aspect-square w-28 h-28">
+                                <div class="flex gap-3">
+                                    <div class="flex-grow-1 w-1/2">
+                                        <label for="name" class="text-black inline-block my-2">Name</label>
+                                        <input type="text" name="name" id="name" class="block w-full h-[40px] rounded shadow p-2 border-black border-1" placeholder="Name" value="Mark Nicholas Bandela">
+                                    </div>
+                                    <div class="flex-grow-1 w-1/2">   
+                                        <label for="email" class="text-black inline-block my-2">email</label>
+                                        <input type="text" name="email" id="email" class="block w-full h-[40px] rounded shadow p-2 border-black border-1" placeholder="Email" value="bandela.marknicholas@Zummitlabs.com">
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <div class="flex-grow-1 w-1/2">
+                                        <label for="dept" class="text-black inline-block my-2">Department</label>
+                                        <select name="dept" id="dept" class="block w-full p-3 rounded shadow">
+                                            <option value="WEB" selected>Web development</option>
+                                            <option value="DA" >Data Analyst</option>
+                                            <option value="AIE" >AI Engineer</option>
+                                        </select>
+                                    </div>
+                                    <div class="flex-grow-1 w-1/2">
+                                        <label for="DOB" class="text-black inline-block my-2">Date Of birth</label>
+                                        <input type="date" name="DoB" id="DOB" class="block w-full p-3 rounded shadow">
+                                    </div>
+                                </div>
+                                <div class="py-4 w-full">
+                                    <label for="identity" class="block">Add Id Proof</label>
+                                    <input type="file" name="input-identity" id="identity" class="file:p-2 file:border-none file:bg-slate-400 file:cursor-pointer block bg-white w-full rounded shadow " accept="image/jpeg, image/png">
+                                </div>
+
+                </div>
+            </div>
+        </article>
+        <aside class="shadow overflow-hidden h-screen flex flex-col justify-start bg-[#f8f9fa]">
+            <div class="container p-3 font-semibold">
+                <div class="flex items-end gap-3 mb-10">
+                    <img src="../Images/Zumitlogo.svg" alt="Alter image" class="w-[25px] h-[25px]">
+                    <p>Zummit@Infolabs.com</p>
+                </div>
+                <hr>
+            </div>
+            <div class="menu-items my-6 h-full">
+                <div class="flex flex-col h-full">
+                    <div class="flex flex-col px-3">
+                        <a href="./workflow.html"
+                            class="py-4 px-2 block hover:text-white focus:text-white text-black focus:font-semibold hover:font-semibold transition-all duration-500 ease-in focus:bg-[#183040]/80 hover:bg-[#183040]/80 focus:rounded-lg hover:rounded-lg">
+                            <span class="flex items-center gap-2">
+                                <i class="text-xs fas fa-map-signs"></i>
+                                <span>My Workflow</span>
+                            </span>
+                        </a>
+                        <a href="#learningpath"
+                            class="py-4 px-2 block hover:text-white focus:text-white text-black focus:font-semibold hover:font-semibold transition-all duration-500 ease-in focus:bg-[#183040]/80 hover:bg-[#183040]/80 focus:rounded-lg hover:rounded-lg">
+                            <span class="flex items-center gap-2">
+                                <i class="text-xs fas fa-route"></i>
+                                <span>Learning path</span>
+                            </span></a>
+                        <a href="#timelog"
+                            class="py-4 px-2 block hover:text-white focus:text-white text-black focus:font-semibold hover:font-semibold transition-all duration-500 ease-in focus:bg-[#183040]/80 hover:bg-[#183040]/80 focus:rounded-lg hover:rounded-lg"><span
+                                class="flex items-center gap-2">
+                                <i class="text-xs fas fa-clock"></i>
+                                <span>Timelog</span>
+                            </span></a>
+                        <a href="#education"
+                            class="py-4 px-2 block hover:text-white focus:text-white text-black focus:font-semibold hover:font-semibold transition-all duration-500 ease-in focus:bg-[#183040]/80 hover:bg-[#183040]/80 focus:rounded-lg hover:rounded-lg"><span
+                                class="flex items-center gap-2">
+                                <i class="text-xs fas fa-graduation-cap"></i>
+                                <span>Education</span>
+                            </span></a>
+                    </div>
+                    <div class="flex flex-col mt-auto p-3">
+                        <hr>
+                        <a href="./profile.html" class="flex items-center gap-3 mt-4">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSReqj2oipRAuPF7fE7MYft2XPFOLj_gMiUApt-i5uufQ&s"
+                                alt="Profile" class="rounded-full aspect-square w-16 h-16">
+                            <div class="content">
+                                <p class="font-semibold">Mark Nicholas</p>
+                                <div class="text-slate-500"><small
+                                        class="overflow-break-word text-jsutify">bandela.marknicholas@
+                                        zummitlabs.com</small></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <footer></footer>
+    </main>
+    <script src="https://kit.fontawesome.com/ff68c25b08.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

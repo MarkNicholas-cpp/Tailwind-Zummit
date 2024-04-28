@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation example</title>
+    <link rel="stylesheet" href="../input.css">
+</head>
+
+<body>
+    <div class="nav-bar flex justify-around text-white items-center h-16 bg-green-950 px-32">
+        <div class="nav-logo">
+            <img src="./Images/location.svg" class="w-8" alt="Logo..">
+        </div>
+        <nav class="nav-list flex justify-center space-x-4">
+            <a href="#Home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+        <div class="search relative">
+            <label for="search"
+                class="cursor-pointer absolute rounded-full w-6 h-6 bg-green-900 left-1 top-1 flex items-center justify-center">
+                <img src="./Images/Magnifyingglass.svg" class="w-1/2" alt="Magnifying glass logo">
+            </label>
+            <input
+                class="rounded-3xl h-8 w-8 ps-8 text-sm transition-['width'] duration-500 ease-in-out focus:w-60 focus:pr-2 text-black/75 outline-none"
+                type="search" name="search" id="search">
+        </div>
+    </div>
+
+    <div class="flex items-center justify-center w-full h-ScreenHeight p-12">
+        <div class="content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima velit molestiae ducimus ea aspernatur
+            adipisci deserunt voluptate animi pariatur dolorum ab cumque tenetur quisquam, accusantium placeat, debitis
+            eius excepturi. Corrupti.
+            Possimus nemo recusandae reiciendis, exercitationem aut, voluptatem mollitia tenetur itaque illum qui id
+            quas. Nobis culpa molestias distinctio dignissimos architecto aliquid? Nisi, ex. Laudantium veritatis illo
+            tenetur dignissimos magnam fuga?
+            Enim doloribus aliquam non debitis inventore quae assumenda, illum atque, illo iste nesciunt. Dolores
+            incidunt asperiores maxime quibusdam libero adipisci tenetur, temporibus commodi dolorem aspernatur deserunt
+            laborum, illum, et eius!
+            Earum ullam nisi magni repellendus. Velit veritatis molestiae tempora error laudantium consequuntur
+            inventore, voluptates similique laborum obcaecati, porro rerum? Numquam laudantium vitae pariatur cum quod
+            aut ratione nemo rerum eligendi?
+        </div>
+        <div class="img-container flex-">
+            <img src="./Images/Bg-Home-Img.jpeg" class="mask-img" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
